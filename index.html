@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Pomodoro Clock</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div>
+			<header>
+				<h1>Pomodoro Clock</h1>
+			</header>
+			<div class="set-time">	
+				<div class="seassion">
+					<h2>Seassion</h2>
+					<button id="minus1">-</button>
+					<h3 id="workingTime">25</h3>
+					<button id="plus1">+</button>
+				</div>
+				<div class="break">
+					<h2>Break</h2>
+					<button id="minus2">-</button>
+					<h3 id="breakTime">5</h3>
+					<button id="plus2">+</button>
+				</div>
+				<div class="seassion-time">
+					<h3 class="time" id="timeCounter"></h3>
+				</div>
+				<div class="controls">
+					<button id="start">Start</button>
+					<button id="pause">Pause</button>
+					<button id="reset">Reset</button>
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>
