@@ -1,13 +1,24 @@
+html, body {
+	height: 100%;
+}
+
 body {
 	font-family: 'Kaushan Script', cursive;
 	color: whitesmoke;
 	text-shadow: 2px 3px 3px black;
-	background: url(assets/bg.jpg);
+	background-image: url(assets/bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
-	background-size: cover;
-	margin: 0;
+	background-color: #d3985d;
+	display: table;
+	margin: 0 auto;
+}
+
+body > * {
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 header {
@@ -48,7 +59,6 @@ button {
 
 .set-time > * {
 	display: inline-block;
-	width: 35%;
 }
 
 .seassion > *:not(:first-child) {
@@ -70,16 +80,11 @@ button {
 .seassion-time {
 	margin: auto;
 	text-align: center;
-
-}
-
-.controls {
-	text-align: center;
 }
 
 .controls > button {
 	padding: 0 2%;
-	margin: 3%;
+	margin: 5%;
 	font-size: 2vmax;
 }
 
@@ -94,12 +99,15 @@ button:active {
 
 .break {
 	font-size: 2vmax;
+	margin-left: 10%;
 }
 
 .seassion {
 	font-size: 2vmax;
+	margin-right: 10%;
 }
 
 .description {
 	font-size: 3vmax;
+	margin: 0;
 }
