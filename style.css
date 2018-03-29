@@ -1,0 +1,87 @@
+body {
+	font-family: 'Kaushan Script', cursive;
+	color: whitesmoke;
+	text-shadow: 2px 3px 3px black;
+	background: url(assets/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header {
+	text-align: center;
+	font-size: 150%;
+}
+
+button {
+	font-family: 'Kaushan Script', cursive;
+	border: none;
+	background: whitesmoke;
+	box-shadow: 1px 2px 5px #0f1011;
+	opacity: 0.8;
+}
+
+.seassion > button {
+	border-radius: 50%;
+	margin: 5%;
+
+}
+
+.break > button {
+	border-radius: 50%;
+	margin: 5%;
+}
+
+.set-time {
+	margin: auto;
+	width: 70%;
+	text-align: center;
+}
+
+.set-time > * {
+	display: inline-block;
+	margin-right: 3%;
+	margin-left: 3%;
+	width: 35%;
+}
+
+.seassion > *:not(:first-child) {
+	display: inline-block;
+	margin-top: 0;
+}
+
+.break > *:not(:first-child) {
+	display: inline-block;
+	margin-top: 0;
+}
+
+.time {
+	margin: 0;
+	padding: 0;
+	font-size: 20vh;
+}
+
+.seassion-time {
+	margin: auto;
+	width: 70%;
+	text-align: center;
+
+}
+
+.controls {
+	text-align: center;
+}
+
+.controls > button {
+	padding: 0 2%;
+	margin: 3%;
+	font-size: 5vh
+}
+
+button:hover {
+	opacity: 1;
+}
+
+button:active {
+	position: relative;
+	top: 1px;
+}

@@ -115,6 +115,5 @@ $(document).ready(function() {
 			countBreak -= 1;
 			$("#breakTime").html(countBreak);
 		}
-	});
-	
+	});	
 });
