@@ -82,6 +82,10 @@ button {
 	text-align: center;
 }
 
+.controls {
+	text-align: center;
+}
+
 .controls > button {
 	padding: 0 2%;
 	margin: 5%;
