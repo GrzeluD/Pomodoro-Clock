@@ -7,6 +7,8 @@ $(document).ready(function() {
 	let settingTime = false;
 	let runningTimer = false;
 	let buttonUnbind = false;
+	$("#work").show();
+	$("#noWork").hide();
 	
 	$("#timeCounter").html(countWork + ":00");
 	
@@ -47,6 +49,8 @@ $(document).ready(function() {
 	});
 	
 	function convertBreak() {
+		$("#work").hide();
+		$("#noWork").show();
 		if(countBreak % 60 >= 10) {
 			$("#timeCounter").html(Math.floor(countBreak/60) + ":" + countBreak % 60);
 		}
@@ -56,6 +60,8 @@ $(document).ready(function() {
 	};
 	
 	function convertSeassion() {
+		$("#work").show();
+		$("#noWork").hide();
 		if(countWork % 60 >= 10) {
 			$("#timeCounter").html(Math.floor(countWork/60) + ":" + countWork % 60);
 		}
@@ -85,6 +91,8 @@ $(document).ready(function() {
 		
 		$("#workingTime").html(25);
 		$("#breakTime").html(5);
+		$("#work").show();
+		$("#noWork").hide();
 		
 	});
 	
