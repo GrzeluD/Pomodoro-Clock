@@ -5,11 +5,18 @@ body {
 	background: url(assets/bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	margin: 0;
 }
 
 header {
 	text-align: center;
-	font-size: 150%;
+	font-size: 7vmin;
+	margin: 0;
+	padding: 0; 
+}
+
+h1 {
+	margin: 0;
 }
 
 button {
@@ -33,7 +40,7 @@ button {
 
 .set-time {
 	margin: auto;
-	width: 70%;
+	width: 100%;
 	text-align: center;
 }
 
@@ -57,7 +64,7 @@ button {
 .time {
 	margin: 0;
 	padding: 0;
-	font-size: 20vh;
+	font-size: 20vmin;
 }
 
 .seassion-time {
@@ -74,7 +81,7 @@ button {
 .controls > button {
 	padding: 0 2%;
 	margin: 3%;
-	font-size: 5vh
+	font-size: 5vh;
 }
 
 button:hover {
