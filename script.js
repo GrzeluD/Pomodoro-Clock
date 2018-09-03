@@ -3,7 +3,7 @@ $(document).ready(function() {
 	let countBreak = parseInt($("#breakTime").html());
 	let isPaused = true;
 	let startBreak,
-		 		count;
+	    count;
 	let settingTime = false;
 	let runningTimer = false;
 	let buttonUnbind = false;
